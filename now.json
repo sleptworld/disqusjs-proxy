@@ -8,7 +8,8 @@
         {
             "src": "/(.*)",
             "headers": {
-                "cache-control": "public, max-age=[Cache Age]"
+                "cache-control": "public, max-age=21600",
+                "Access-Control-Allow-Origin":"https://keitsuki.club"
             },
             "dest": "https://disqus.com/api/$1"
         }
