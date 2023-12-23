@@ -1,9 +1,6 @@
 {
     "version": 2,
     "name": "disqusjs-proxy",
-    "alias": [
-        "https://disqus.keitsuki.club"
-    ],
     "routes": [
         {
             "src": "/(.*)",
